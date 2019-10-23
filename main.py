@@ -1,5 +1,4 @@
-from flask import Flask
-from flask import jsonify
+from flask import Flask, request, jsonify
 from geopy.geocoders import Nominatim
 
 app = Flask(__name__)
